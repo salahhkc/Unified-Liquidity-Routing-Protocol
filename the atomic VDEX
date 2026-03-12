@@ -1,0 +1,65 @@
+# VDEX — Unified Liquidity Routing Protocol
+
+VDEX is an open-source liquidity routing protocol designed to aggregate and execute trades across decentralized exchanges (DEXs), centralized exchanges (CEXs), RFQ market makers, and on-chain liquidity pools.
+
+The goal of VDEX is to provide users with the best possible execution price by intelligently discovering and routing liquidity across multiple trading venues in a single unified system.
+
+Unlike traditional DEX aggregators that only search within on-chain liquidity pools, VDEX introduces a hybrid routing architecture capable of interacting with both on-chain and off-chain liquidity sources.
+
+## Key Concept
+
+The protocol implements an advanced routing engine that analyzes liquidity across:
+
+- Decentralized exchanges (AMM pools)
+- RFQ market makers
+- Centralized exchange liquidity
+- Cross-chain bridges and wrapped assets
+
+Using this information, VDEX computes the most efficient execution path and splits orders across multiple liquidity sources when necessary.
+
+## Problem
+
+Current liquidity in the crypto ecosystem is fragmented:
+
+- Liquidity exists across many blockchains
+- Centralized exchanges hold deep liquidity but are disconnected from DeFi
+- DEX aggregators are limited to on-chain liquidity
+
+This fragmentation leads to:
+
+- Poor price execution
+- High slippage
+- Inefficient capital usage
+
+## Solution
+
+VDEX introduces a unified routing layer that connects fragmented liquidity sources and allows users and applications to access the best available price through a single interface.
+
+The protocol is designed to support:
+
+- intelligent pathfinding
+- multi-venue routing
+- hybrid liquidity aggregation
+- atomic settlement when possible
+
+## Vision
+
+The long-term vision of VDEX is to create an open liquidity infrastructure for the crypto ecosystem where any wallet, protocol, or application can access the deepest liquidity available across both DeFi and CeFi.
+
+## Why Open Source
+
+VDEX is built as an open public infrastructure project intended to benefit the entire Web3 ecosystem. By being open source, the protocol allows developers, researchers, and protocols to collaborate in building more efficient and transparent liquidity markets.
+
+## Potential Use Cases
+
+- Wallet integrated swap engines
+- Cross-chain trading infrastructure
+- DeFi liquidity aggregation
+- Institutional trade routing
+- On-chain settlement for hybrid trading systems
+
+## Status
+
+The project is currently in the research and architecture phase.
+
+Contributions, discussions, and collaboration are welcome.
